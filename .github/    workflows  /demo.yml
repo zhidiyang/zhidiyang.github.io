@@ -1,0 +1,7 @@
+name: Hello World
+on: [push]
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 你的第一次Action运行成功！"
